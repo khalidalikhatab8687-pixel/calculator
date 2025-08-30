@@ -1,6 +1,6 @@
 
 import React, { useState, useCallback } from 'react';
-import CalculatorButton from './components/CalculatorButton';
+import CalculatorButton from './components/CalculatorButton.tsx';
 
 const App: React.FC = () => {
   const [input, setInput] = useState<string>('0');
